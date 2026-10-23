@@ -1,0 +1,125 @@
+{
+  "active_fraction_lf": 0.2,
+  "budget_hf": 500,
+  "budget_lf": 8385,
+  "candidate_pool_size": 1000,
+  "ensemble_size": 5,
+  "force_min_hf_per_mixed_round": true,
+  "hf_max_num_epochs": 200,
+  "hf_top_k_percent": 100.0,
+  "hf_training_batch_size": 200,
+  "hidden_features": 50,
+  "lf_active_fraction": 0.2,
+  "lf_active_rounds": 2,
+  "lf_max_num_epochs": 200,
+  "lf_training_batch_size": 200,
+  "lf_warmup_fraction": 0.5,
+  "meta": {
+    "budget_id": "lf_DT02/budget_lf_008385_hf_000500",
+    "experiment_id": "prism_vertex",
+    "experiment_name": "bayesian_tissue_vertex",
+    "method": "mf_sbi",
+    "obs_id": 0,
+    "seed": 0
+  },
+  "method": "mf_sbi",
+  "n_active_lf": 1677,
+  "n_active_lf_requested": 1677,
+  "n_mix_lf": 2516,
+  "n_warmup": 4192,
+  "neural_net": "nsf",
+  "nltp_exact": -5.545289993286133,
+  "nltp_exact_status": "ok",
+  "num_rounds": 5,
+  "phase2_logs": [
+    {
+      "batch": 0,
+      "n_active_lf": 167,
+      "n_lf_in_batch": 838,
+      "trained": true
+    },
+    {
+      "batch": 1,
+      "n_active_lf": 167,
+      "n_lf_in_batch": 838,
+      "trained": true
+    }
+  ],
+  "phase3_logs": [
+    {
+      "effective_k_percent": 16.578249336870027,
+      "n_hf_in_round": 100,
+      "n_lf_in_round": 503,
+      "n_mixed": 603,
+      "remaining_hf_after": 400,
+      "remaining_lf_after": 2013,
+      "round": 1,
+      "trained": true
+    },
+    {
+      "effective_k_percent": 16.576875259013676,
+      "n_hf_in_round": 100,
+      "n_lf_in_round": 503,
+      "n_mixed": 603,
+      "remaining_hf_after": 300,
+      "remaining_lf_after": 1510,
+      "round": 2,
+      "trained": true
+    },
+    {
+      "effective_k_percent": 16.574585635359117,
+      "n_hf_in_round": 100,
+      "n_lf_in_round": 503,
+      "n_mixed": 603,
+      "remaining_hf_after": 200,
+      "remaining_lf_after": 1007,
+      "round": 3,
+      "trained": true
+    },
+    {
+      "effective_k_percent": 16.570008285004143,
+      "n_hf_in_round": 100,
+      "n_lf_in_round": 503,
+      "n_mixed": 603,
+      "remaining_hf_after": 100,
+      "remaining_lf_after": 504,
+      "round": 4,
+      "trained": true
+    },
+    {
+      "effective_k_percent": 16.556291390728475,
+      "n_hf_in_round": 100,
+      "n_lf_in_round": 503,
+      "n_mixed": 603,
+      "remaining_hf_after": 0,
+      "remaining_lf_after": 1,
+      "round": 5,
+      "trained": true
+    },
+    {
+      "effective_k_percent": null,
+      "n_hf_in_round": 0,
+      "n_lf_in_round": 1,
+      "n_mixed": 1,
+      "remaining_hf_after": 0,
+      "remaining_lf_after": 0,
+      "round": 6,
+      "trained": false
+    }
+  ],
+  "posterior_mix_alpha": 0.1,
+  "proposal_quantile": 1e-06,
+  "use_phase2_lf_active": true,
+  "use_snpe_proposal": true,
+  "z_score_theta": "independent",
+  "z_score_x": "independent",
+  "failure_registry": {
+    "blocked_count": 549,
+    "stats": {
+      "n_penalty_hf": 180,
+      "n_penalty_lf": 369,
+      "n_skipped_hf": 0,
+      "n_skipped_lf": 0
+    }
+  }
+}

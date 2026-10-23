@@ -1,0 +1,2 @@
+experiment_id,experiment_name,method,obs_id,seed,budget_id,n_hf_calls,n_lf_calls,c_hf,c_lf,lambda_l_over_h,total_cost,wallclock_seconds_total,train_seconds,sim_seconds_hf,sim_seconds_lf
+prism_vertex,yan_epithelial_vertex,mf_sbi,0,4,lf_MESH4/budget_lf_005000_hf_000500,500,5000,1.0,0.010458032780751,0.010458032780751,552.2901639037553,5335.873873788863,157.7721936367452,,

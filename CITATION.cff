@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Low-fidelity simulator selection for multi-fidelity inference of epithelial vertex models"
+message: "If you use this software, please cite the accompanying manuscript."
+type: software
+authors:
+  - family-names: Amini
+    given-names: Mohammad
+  - family-names: Jennings
+    given-names: Jack L.
+  - family-names: Xing
+    given-names: Wei W.
+  - family-names: Fletcher
+    given-names: Alexander G.
+repository-code: "https://github.com/maminium/prism-mf-sbi"
+url: "https://github.com/maminium/prism-mf-sbi"
+license: BSD-3-Clause
+version: 1.0.0
+keywords:
+  - simulation-based inference
+  - multi-fidelity inference
+  - vertex model
+  - epithelial tissue mechanics
+  - PRISM
+  - MF-SBI

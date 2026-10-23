@@ -1,0 +1,1097 @@
+{
+  "n_theta": 20,
+  "n_seeds": 10,
+  "lam_range": [
+    -1.45,
+    0.25
+  ],
+  "gam_range": [
+    0.01,
+    0.2
+  ],
+  "theta_meta": [
+    {
+      "tag": "theta_true",
+      "source": "fixed"
+    },
+    {
+      "tag": "corner_lh",
+      "source": "fixed"
+    },
+    {
+      "tag": "corner_hl",
+      "source": "fixed"
+    },
+    {
+      "tag": "border_gam_low",
+      "source": "fixed"
+    },
+    {
+      "tag": "border_gam_high",
+      "source": "fixed"
+    },
+    {
+      "tag": "interior_a",
+      "source": "fixed"
+    },
+    {
+      "tag": "interior_b",
+      "source": "fixed"
+    },
+    {
+      "tag": "interior_c",
+      "source": "fixed"
+    },
+    {
+      "tag": "lhs_09",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_10",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_11",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_12",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_13",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_14",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_15",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_16",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_17",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_18",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_19",
+      "source": "lhs"
+    },
+    {
+      "tag": "lhs_20",
+      "source": "lhs"
+    }
+  ],
+  "seed_map": {
+    "00_00": {
+      "theta_index": 0,
+      "seed_k": 0,
+      "sim_seed": 4232097110
+    },
+    "00_01": {
+      "theta_index": 0,
+      "seed_k": 1,
+      "sim_seed": 2697854655
+    },
+    "00_02": {
+      "theta_index": 0,
+      "seed_k": 2,
+      "sim_seed": 494354646
+    },
+    "00_03": {
+      "theta_index": 0,
+      "seed_k": 3,
+      "sim_seed": 1093544906
+    },
+    "00_04": {
+      "theta_index": 0,
+      "seed_k": 4,
+      "sim_seed": 3702007135
+    },
+    "00_05": {
+      "theta_index": 0,
+      "seed_k": 5,
+      "sim_seed": 960951079
+    },
+    "00_06": {
+      "theta_index": 0,
+      "seed_k": 6,
+      "sim_seed": 2041830706
+    },
+    "00_07": {
+      "theta_index": 0,
+      "seed_k": 7,
+      "sim_seed": 1420213756
+    },
+    "00_08": {
+      "theta_index": 0,
+      "seed_k": 8,
+      "sim_seed": 689243423
+    },
+    "00_09": {
+      "theta_index": 0,
+      "seed_k": 9,
+      "sim_seed": 3711640000
+    },
+    "01_00": {
+      "theta_index": 1,
+      "seed_k": 0,
+      "sim_seed": 4136252289
+    },
+    "01_01": {
+      "theta_index": 1,
+      "seed_k": 1,
+      "sim_seed": 4150158330
+    },
+    "01_02": {
+      "theta_index": 1,
+      "seed_k": 2,
+      "sim_seed": 2969721129
+    },
+    "01_03": {
+      "theta_index": 1,
+      "seed_k": 3,
+      "sim_seed": 3845369518
+    },
+    "01_04": {
+      "theta_index": 1,
+      "seed_k": 4,
+      "sim_seed": 3883155621
+    },
+    "01_05": {
+      "theta_index": 1,
+      "seed_k": 5,
+      "sim_seed": 434121740
+    },
+    "01_06": {
+      "theta_index": 1,
+      "seed_k": 6,
+      "sim_seed": 3333575790
+    },
+    "01_07": {
+      "theta_index": 1,
+      "seed_k": 7,
+      "sim_seed": 656784155
+    },
+    "01_08": {
+      "theta_index": 1,
+      "seed_k": 8,
+      "sim_seed": 3748136613
+    },
+    "01_09": {
+      "theta_index": 1,
+      "seed_k": 9,
+      "sim_seed": 2655296674
+    },
+    "02_00": {
+      "theta_index": 2,
+      "seed_k": 0,
+      "sim_seed": 2408037841
+    },
+    "02_01": {
+      "theta_index": 2,
+      "seed_k": 1,
+      "sim_seed": 3883379035
+    },
+    "02_02": {
+      "theta_index": 2,
+      "seed_k": 2,
+      "sim_seed": 2278944367
+    },
+    "02_03": {
+      "theta_index": 2,
+      "seed_k": 3,
+      "sim_seed": 3197384463
+    },
+    "02_04": {
+      "theta_index": 2,
+      "seed_k": 4,
+      "sim_seed": 497348735
+    },
+    "02_05": {
+      "theta_index": 2,
+      "seed_k": 5,
+      "sim_seed": 1486479234
+    },
+    "02_06": {
+      "theta_index": 2,
+      "seed_k": 6,
+      "sim_seed": 3276215866
+    },
+    "02_07": {
+      "theta_index": 2,
+      "seed_k": 7,
+      "sim_seed": 555446830
+    },
+    "02_08": {
+      "theta_index": 2,
+      "seed_k": 8,
+      "sim_seed": 3377136481
+    },
+    "02_09": {
+      "theta_index": 2,
+      "seed_k": 9,
+      "sim_seed": 2356310195
+    },
+    "03_00": {
+      "theta_index": 3,
+      "seed_k": 0,
+      "sim_seed": 2387039507
+    },
+    "03_01": {
+      "theta_index": 3,
+      "seed_k": 1,
+      "sim_seed": 3271689578
+    },
+    "03_02": {
+      "theta_index": 3,
+      "seed_k": 2,
+      "sim_seed": 1101452235
+    },
+    "03_03": {
+      "theta_index": 3,
+      "seed_k": 3,
+      "sim_seed": 1975156775
+    },
+    "03_04": {
+      "theta_index": 3,
+      "seed_k": 4,
+      "sim_seed": 3246760639
+    },
+    "03_05": {
+      "theta_index": 3,
+      "seed_k": 5,
+      "sim_seed": 1185600351
+    },
+    "03_06": {
+      "theta_index": 3,
+      "seed_k": 6,
+      "sim_seed": 2273047601
+    },
+    "03_07": {
+      "theta_index": 3,
+      "seed_k": 7,
+      "sim_seed": 1584588277
+    },
+    "03_08": {
+      "theta_index": 3,
+      "seed_k": 8,
+      "sim_seed": 3916515223
+    },
+    "03_09": {
+      "theta_index": 3,
+      "seed_k": 9,
+      "sim_seed": 400273052
+    },
+    "04_00": {
+      "theta_index": 4,
+      "seed_k": 0,
+      "sim_seed": 979076680
+    },
+    "04_01": {
+      "theta_index": 4,
+      "seed_k": 1,
+      "sim_seed": 3576520260
+    },
+    "04_02": {
+      "theta_index": 4,
+      "seed_k": 2,
+      "sim_seed": 2681333901
+    },
+    "04_03": {
+      "theta_index": 4,
+      "seed_k": 3,
+      "sim_seed": 696188656
+    },
+    "04_04": {
+      "theta_index": 4,
+      "seed_k": 4,
+      "sim_seed": 498469829
+    },
+    "04_05": {
+      "theta_index": 4,
+      "seed_k": 5,
+      "sim_seed": 4217186040
+    },
+    "04_06": {
+      "theta_index": 4,
+      "seed_k": 6,
+      "sim_seed": 2622296589
+    },
+    "04_07": {
+      "theta_index": 4,
+      "seed_k": 7,
+      "sim_seed": 640999044
+    },
+    "04_08": {
+      "theta_index": 4,
+      "seed_k": 8,
+      "sim_seed": 713982517
+    },
+    "04_09": {
+      "theta_index": 4,
+      "seed_k": 9,
+      "sim_seed": 2534821044
+    },
+    "05_00": {
+      "theta_index": 5,
+      "seed_k": 0,
+      "sim_seed": 2441121367
+    },
+    "05_01": {
+      "theta_index": 5,
+      "seed_k": 1,
+      "sim_seed": 3164694480
+    },
+    "05_02": {
+      "theta_index": 5,
+      "seed_k": 2,
+      "sim_seed": 3184310748
+    },
+    "05_03": {
+      "theta_index": 5,
+      "seed_k": 3,
+      "sim_seed": 2773762565
+    },
+    "05_04": {
+      "theta_index": 5,
+      "seed_k": 4,
+      "sim_seed": 687080910
+    },
+    "05_05": {
+      "theta_index": 5,
+      "seed_k": 5,
+      "sim_seed": 3720451474
+    },
+    "05_06": {
+      "theta_index": 5,
+      "seed_k": 6,
+      "sim_seed": 3778218978
+    },
+    "05_07": {
+      "theta_index": 5,
+      "seed_k": 7,
+      "sim_seed": 2478852994
+    },
+    "05_08": {
+      "theta_index": 5,
+      "seed_k": 8,
+      "sim_seed": 2294601165
+    },
+    "05_09": {
+      "theta_index": 5,
+      "seed_k": 9,
+      "sim_seed": 3095814047
+    },
+    "06_00": {
+      "theta_index": 6,
+      "seed_k": 0,
+      "sim_seed": 3239118536
+    },
+    "06_01": {
+      "theta_index": 6,
+      "seed_k": 1,
+      "sim_seed": 578466613
+    },
+    "06_02": {
+      "theta_index": 6,
+      "seed_k": 2,
+      "sim_seed": 3069172059
+    },
+    "06_03": {
+      "theta_index": 6,
+      "seed_k": 3,
+      "sim_seed": 22053734
+    },
+    "06_04": {
+      "theta_index": 6,
+      "seed_k": 4,
+      "sim_seed": 788062788
+    },
+    "06_05": {
+      "theta_index": 6,
+      "seed_k": 5,
+      "sim_seed": 3788385193
+    },
+    "06_06": {
+      "theta_index": 6,
+      "seed_k": 6,
+      "sim_seed": 1947978897
+    },
+    "06_07": {
+      "theta_index": 6,
+      "seed_k": 7,
+      "sim_seed": 1718011609
+    },
+    "06_08": {
+      "theta_index": 6,
+      "seed_k": 8,
+      "sim_seed": 1303980804
+    },
+    "06_09": {
+      "theta_index": 6,
+      "seed_k": 9,
+      "sim_seed": 1414964966
+    },
+    "07_00": {
+      "theta_index": 7,
+      "seed_k": 0,
+      "sim_seed": 4123494387
+    },
+    "07_01": {
+      "theta_index": 7,
+      "seed_k": 1,
+      "sim_seed": 2935667071
+    },
+    "07_02": {
+      "theta_index": 7,
+      "seed_k": 2,
+      "sim_seed": 619828344
+    },
+    "07_03": {
+      "theta_index": 7,
+      "seed_k": 3,
+      "sim_seed": 4248299996
+    },
+    "07_04": {
+      "theta_index": 7,
+      "seed_k": 4,
+      "sim_seed": 667126022
+    },
+    "07_05": {
+      "theta_index": 7,
+      "seed_k": 5,
+      "sim_seed": 3111830122
+    },
+    "07_06": {
+      "theta_index": 7,
+      "seed_k": 6,
+      "sim_seed": 2532862781
+    },
+    "07_07": {
+      "theta_index": 7,
+      "seed_k": 7,
+      "sim_seed": 4294649080
+    },
+    "07_08": {
+      "theta_index": 7,
+      "seed_k": 8,
+      "sim_seed": 3615954872
+    },
+    "07_09": {
+      "theta_index": 7,
+      "seed_k": 9,
+      "sim_seed": 3223156698
+    },
+    "08_00": {
+      "theta_index": 8,
+      "seed_k": 0,
+      "sim_seed": 4095421525
+    },
+    "08_01": {
+      "theta_index": 8,
+      "seed_k": 1,
+      "sim_seed": 3144338873
+    },
+    "08_02": {
+      "theta_index": 8,
+      "seed_k": 2,
+      "sim_seed": 1601499026
+    },
+    "08_03": {
+      "theta_index": 8,
+      "seed_k": 3,
+      "sim_seed": 1790003870
+    },
+    "08_04": {
+      "theta_index": 8,
+      "seed_k": 4,
+      "sim_seed": 3490138289
+    },
+    "08_05": {
+      "theta_index": 8,
+      "seed_k": 5,
+      "sim_seed": 117976484
+    },
+    "08_06": {
+      "theta_index": 8,
+      "seed_k": 6,
+      "sim_seed": 40230930
+    },
+    "08_07": {
+      "theta_index": 8,
+      "seed_k": 7,
+      "sim_seed": 1336628691
+    },
+    "08_08": {
+      "theta_index": 8,
+      "seed_k": 8,
+      "sim_seed": 1079998519
+    },
+    "08_09": {
+      "theta_index": 8,
+      "seed_k": 9,
+      "sim_seed": 1039390493
+    },
+    "09_00": {
+      "theta_index": 9,
+      "seed_k": 0,
+      "sim_seed": 1870919410
+    },
+    "09_01": {
+      "theta_index": 9,
+      "seed_k": 1,
+      "sim_seed": 1203496895
+    },
+    "09_02": {
+      "theta_index": 9,
+      "seed_k": 2,
+      "sim_seed": 1018100371
+    },
+    "09_03": {
+      "theta_index": 9,
+      "seed_k": 3,
+      "sim_seed": 2611839565
+    },
+    "09_04": {
+      "theta_index": 9,
+      "seed_k": 4,
+      "sim_seed": 3639387491
+    },
+    "09_05": {
+      "theta_index": 9,
+      "seed_k": 5,
+      "sim_seed": 3828822237
+    },
+    "09_06": {
+      "theta_index": 9,
+      "seed_k": 6,
+      "sim_seed": 1776487421
+    },
+    "09_07": {
+      "theta_index": 9,
+      "seed_k": 7,
+      "sim_seed": 3178877808
+    },
+    "09_08": {
+      "theta_index": 9,
+      "seed_k": 8,
+      "sim_seed": 2849863248
+    },
+    "09_09": {
+      "theta_index": 9,
+      "seed_k": 9,
+      "sim_seed": 1004590823
+    },
+    "10_00": {
+      "theta_index": 10,
+      "seed_k": 0,
+      "sim_seed": 3479092374
+    },
+    "10_01": {
+      "theta_index": 10,
+      "seed_k": 1,
+      "sim_seed": 3871293282
+    },
+    "10_02": {
+      "theta_index": 10,
+      "seed_k": 2,
+      "sim_seed": 2707937611
+    },
+    "10_03": {
+      "theta_index": 10,
+      "seed_k": 3,
+      "sim_seed": 3809894162
+    },
+    "10_04": {
+      "theta_index": 10,
+      "seed_k": 4,
+      "sim_seed": 3521066939
+    },
+    "10_05": {
+      "theta_index": 10,
+      "seed_k": 5,
+      "sim_seed": 2292041893
+    },
+    "10_06": {
+      "theta_index": 10,
+      "seed_k": 6,
+      "sim_seed": 3950247402
+    },
+    "10_07": {
+      "theta_index": 10,
+      "seed_k": 7,
+      "sim_seed": 3817362155
+    },
+    "10_08": {
+      "theta_index": 10,
+      "seed_k": 8,
+      "sim_seed": 217165945
+    },
+    "10_09": {
+      "theta_index": 10,
+      "seed_k": 9,
+      "sim_seed": 1674049986
+    },
+    "11_00": {
+      "theta_index": 11,
+      "seed_k": 0,
+      "sim_seed": 2640289818
+    },
+    "11_01": {
+      "theta_index": 11,
+      "seed_k": 1,
+      "sim_seed": 3578424624
+    },
+    "11_02": {
+      "theta_index": 11,
+      "seed_k": 2,
+      "sim_seed": 1931122252
+    },
+    "11_03": {
+      "theta_index": 11,
+      "seed_k": 3,
+      "sim_seed": 1439471862
+    },
+    "11_04": {
+      "theta_index": 11,
+      "seed_k": 4,
+      "sim_seed": 2011984369
+    },
+    "11_05": {
+      "theta_index": 11,
+      "seed_k": 5,
+      "sim_seed": 3535261631
+    },
+    "11_06": {
+      "theta_index": 11,
+      "seed_k": 6,
+      "sim_seed": 2986393307
+    },
+    "11_07": {
+      "theta_index": 11,
+      "seed_k": 7,
+      "sim_seed": 1537966592
+    },
+    "11_08": {
+      "theta_index": 11,
+      "seed_k": 8,
+      "sim_seed": 454743904
+    },
+    "11_09": {
+      "theta_index": 11,
+      "seed_k": 9,
+      "sim_seed": 1446401520
+    },
+    "12_00": {
+      "theta_index": 12,
+      "seed_k": 0,
+      "sim_seed": 3341034402
+    },
+    "12_01": {
+      "theta_index": 12,
+      "seed_k": 1,
+      "sim_seed": 2447539456
+    },
+    "12_02": {
+      "theta_index": 12,
+      "seed_k": 2,
+      "sim_seed": 3908942615
+    },
+    "12_03": {
+      "theta_index": 12,
+      "seed_k": 3,
+      "sim_seed": 1862324981
+    },
+    "12_04": {
+      "theta_index": 12,
+      "seed_k": 4,
+      "sim_seed": 2420754699
+    },
+    "12_05": {
+      "theta_index": 12,
+      "seed_k": 5,
+      "sim_seed": 191723145
+    },
+    "12_06": {
+      "theta_index": 12,
+      "seed_k": 6,
+      "sim_seed": 3006128842
+    },
+    "12_07": {
+      "theta_index": 12,
+      "seed_k": 7,
+      "sim_seed": 41643394
+    },
+    "12_08": {
+      "theta_index": 12,
+      "seed_k": 8,
+      "sim_seed": 3755921463
+    },
+    "12_09": {
+      "theta_index": 12,
+      "seed_k": 9,
+      "sim_seed": 1581222980
+    },
+    "13_00": {
+      "theta_index": 13,
+      "seed_k": 0,
+      "sim_seed": 3163999813
+    },
+    "13_01": {
+      "theta_index": 13,
+      "seed_k": 1,
+      "sim_seed": 4233133793
+    },
+    "13_02": {
+      "theta_index": 13,
+      "seed_k": 2,
+      "sim_seed": 3366496516
+    },
+    "13_03": {
+      "theta_index": 13,
+      "seed_k": 3,
+      "sim_seed": 390367003
+    },
+    "13_04": {
+      "theta_index": 13,
+      "seed_k": 4,
+      "sim_seed": 1671376853
+    },
+    "13_05": {
+      "theta_index": 13,
+      "seed_k": 5,
+      "sim_seed": 1326727692
+    },
+    "13_06": {
+      "theta_index": 13,
+      "seed_k": 6,
+      "sim_seed": 1901631643
+    },
+    "13_07": {
+      "theta_index": 13,
+      "seed_k": 7,
+      "sim_seed": 619644738
+    },
+    "13_08": {
+      "theta_index": 13,
+      "seed_k": 8,
+      "sim_seed": 1291013931
+    },
+    "13_09": {
+      "theta_index": 13,
+      "seed_k": 9,
+      "sim_seed": 4294668844
+    },
+    "14_00": {
+      "theta_index": 14,
+      "seed_k": 0,
+      "sim_seed": 2530337590
+    },
+    "14_01": {
+      "theta_index": 14,
+      "seed_k": 1,
+      "sim_seed": 1110989654
+    },
+    "14_02": {
+      "theta_index": 14,
+      "seed_k": 2,
+      "sim_seed": 355279552
+    },
+    "14_03": {
+      "theta_index": 14,
+      "seed_k": 3,
+      "sim_seed": 2272571832
+    },
+    "14_04": {
+      "theta_index": 14,
+      "seed_k": 4,
+      "sim_seed": 3048168878
+    },
+    "14_05": {
+      "theta_index": 14,
+      "seed_k": 5,
+      "sim_seed": 63110131
+    },
+    "14_06": {
+      "theta_index": 14,
+      "seed_k": 6,
+      "sim_seed": 1639405473
+    },
+    "14_07": {
+      "theta_index": 14,
+      "seed_k": 7,
+      "sim_seed": 634182799
+    },
+    "14_08": {
+      "theta_index": 14,
+      "seed_k": 8,
+      "sim_seed": 3664931913
+    },
+    "14_09": {
+      "theta_index": 14,
+      "seed_k": 9,
+      "sim_seed": 2218596295
+    },
+    "15_00": {
+      "theta_index": 15,
+      "seed_k": 0,
+      "sim_seed": 4271000691
+    },
+    "15_01": {
+      "theta_index": 15,
+      "seed_k": 1,
+      "sim_seed": 374714567
+    },
+    "15_02": {
+      "theta_index": 15,
+      "seed_k": 2,
+      "sim_seed": 2456732402
+    },
+    "15_03": {
+      "theta_index": 15,
+      "seed_k": 3,
+      "sim_seed": 766411874
+    },
+    "15_04": {
+      "theta_index": 15,
+      "seed_k": 4,
+      "sim_seed": 1260707799
+    },
+    "15_05": {
+      "theta_index": 15,
+      "seed_k": 5,
+      "sim_seed": 3953012998
+    },
+    "15_06": {
+      "theta_index": 15,
+      "seed_k": 6,
+      "sim_seed": 86085616
+    },
+    "15_07": {
+      "theta_index": 15,
+      "seed_k": 7,
+      "sim_seed": 3906638459
+    },
+    "15_08": {
+      "theta_index": 15,
+      "seed_k": 8,
+      "sim_seed": 975443050
+    },
+    "15_09": {
+      "theta_index": 15,
+      "seed_k": 9,
+      "sim_seed": 3624950067
+    },
+    "16_00": {
+      "theta_index": 16,
+      "seed_k": 0,
+      "sim_seed": 439622205
+    },
+    "16_01": {
+      "theta_index": 16,
+      "seed_k": 1,
+      "sim_seed": 2313327808
+    },
+    "16_02": {
+      "theta_index": 16,
+      "seed_k": 2,
+      "sim_seed": 4071858399
+    },
+    "16_03": {
+      "theta_index": 16,
+      "seed_k": 3,
+      "sim_seed": 4245670170
+    },
+    "16_04": {
+      "theta_index": 16,
+      "seed_k": 4,
+      "sim_seed": 3522945706
+    },
+    "16_05": {
+      "theta_index": 16,
+      "seed_k": 5,
+      "sim_seed": 2150293113
+    },
+    "16_06": {
+      "theta_index": 16,
+      "seed_k": 6,
+      "sim_seed": 1555070883
+    },
+    "16_07": {
+      "theta_index": 16,
+      "seed_k": 7,
+      "sim_seed": 1955989922
+    },
+    "16_08": {
+      "theta_index": 16,
+      "seed_k": 8,
+      "sim_seed": 3649007942
+    },
+    "16_09": {
+      "theta_index": 16,
+      "seed_k": 9,
+      "sim_seed": 801842614
+    },
+    "17_00": {
+      "theta_index": 17,
+      "seed_k": 0,
+      "sim_seed": 1668528015
+    },
+    "17_01": {
+      "theta_index": 17,
+      "seed_k": 1,
+      "sim_seed": 315773355
+    },
+    "17_02": {
+      "theta_index": 17,
+      "seed_k": 2,
+      "sim_seed": 4289585024
+    },
+    "17_03": {
+      "theta_index": 17,
+      "seed_k": 3,
+      "sim_seed": 1965305442
+    },
+    "17_04": {
+      "theta_index": 17,
+      "seed_k": 4,
+      "sim_seed": 1743823325
+    },
+    "17_05": {
+      "theta_index": 17,
+      "seed_k": 5,
+      "sim_seed": 436628681
+    },
+    "17_06": {
+      "theta_index": 17,
+      "seed_k": 6,
+      "sim_seed": 152214255
+    },
+    "17_07": {
+      "theta_index": 17,
+      "seed_k": 7,
+      "sim_seed": 3316156742
+    },
+    "17_08": {
+      "theta_index": 17,
+      "seed_k": 8,
+      "sim_seed": 920899183
+    },
+    "17_09": {
+      "theta_index": 17,
+      "seed_k": 9,
+      "sim_seed": 478430604
+    },
+    "18_00": {
+      "theta_index": 18,
+      "seed_k": 0,
+      "sim_seed": 1807946163
+    },
+    "18_01": {
+      "theta_index": 18,
+      "seed_k": 1,
+      "sim_seed": 1256381832
+    },
+    "18_02": {
+      "theta_index": 18,
+      "seed_k": 2,
+      "sim_seed": 1075230621
+    },
+    "18_03": {
+      "theta_index": 18,
+      "seed_k": 3,
+      "sim_seed": 1635417359
+    },
+    "18_04": {
+      "theta_index": 18,
+      "seed_k": 4,
+      "sim_seed": 1737250678
+    },
+    "18_05": {
+      "theta_index": 18,
+      "seed_k": 5,
+      "sim_seed": 928649478
+    },
+    "18_06": {
+      "theta_index": 18,
+      "seed_k": 6,
+      "sim_seed": 3513751360
+    },
+    "18_07": {
+      "theta_index": 18,
+      "seed_k": 7,
+      "sim_seed": 2802392372
+    },
+    "18_08": {
+      "theta_index": 18,
+      "seed_k": 8,
+      "sim_seed": 436787520
+    },
+    "18_09": {
+      "theta_index": 18,
+      "seed_k": 9,
+      "sim_seed": 941428132
+    },
+    "19_00": {
+      "theta_index": 19,
+      "seed_k": 0,
+      "sim_seed": 1437596231
+    },
+    "19_01": {
+      "theta_index": 19,
+      "seed_k": 1,
+      "sim_seed": 2108190580
+    },
+    "19_02": {
+      "theta_index": 19,
+      "seed_k": 2,
+      "sim_seed": 2284214228
+    },
+    "19_03": {
+      "theta_index": 19,
+      "seed_k": 3,
+      "sim_seed": 235756165
+    },
+    "19_04": {
+      "theta_index": 19,
+      "seed_k": 4,
+      "sim_seed": 446343788
+    },
+    "19_05": {
+      "theta_index": 19,
+      "seed_k": 5,
+      "sim_seed": 3008326781
+    },
+    "19_06": {
+      "theta_index": 19,
+      "seed_k": 6,
+      "sim_seed": 130241553
+    },
+    "19_07": {
+      "theta_index": 19,
+      "seed_k": 7,
+      "sim_seed": 3336253140
+    },
+    "19_08": {
+      "theta_index": 19,
+      "seed_k": 8,
+      "sim_seed": 883054947
+    },
+    "19_09": {
+      "theta_index": 19,
+      "seed_k": 9,
+      "sim_seed": 2656517413
+    }
+  },
+  "theta_true_index": 0
+}

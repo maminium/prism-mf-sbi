@@ -1,0 +1,29 @@
+{
+  "experiment": "prism_vertex",
+  "fidelity_ids": [
+    "hf_single",
+    "lf_T0125",
+    "lf_T025",
+    "lf_T05",
+    "lf_DT2",
+    "lf_DT5",
+    "lf_DT10",
+    "lf_MESH8",
+    "lf_MESH4",
+    "lf_HONEY",
+    "lf_VORO_RELAX5",
+    "lf_R1",
+    "lf_R2",
+    "lf_R5"
+  ],
+  "n_theta": 20,
+  "n_seeds": 10,
+  "n_cells": 2800,
+  "status": "campaign_finished",
+  "ok": 2763,
+  "fail": 25,
+  "skipped_resume": 12,
+  "raw_metas": 2800,
+  "elapsed_s": 2805.5507051944733,
+  "smoke": false
+}

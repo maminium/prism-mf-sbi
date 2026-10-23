@@ -1,0 +1,19 @@
+{
+  "budget_hf": 1000,
+  "hidden_features": 50,
+  "max_num_epochs": 200,
+  "meta": {
+    "budget_id": "budget_hf_001000",
+    "experiment_id": "prism_vertex",
+    "experiment_name": "yan_epithelial_vertex",
+    "method": "hf_npe",
+    "obs_id": 0,
+    "seed": 0
+  },
+  "method": "hf_npe",
+  "neural_net": "nsf",
+  "nltp_exact": 6.780146598815918,
+  "nltp_exact_status": "ok",
+  "simulation_batch_size": 1000,
+  "training_batch_size": 200
+}

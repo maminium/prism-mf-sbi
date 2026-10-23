@@ -1,0 +1,38 @@
+{
+  "budget_hf": 1000,
+  "distance_based_decay": true,
+  "epsilon_decay": 0.2,
+  "initial_round_factor": 5,
+  "kernel": "gaussian",
+  "kernel_variance_scale": 0.5,
+  "meta": {
+    "budget_id": "budget_hf_001000",
+    "experiment_id": "prism_vertex",
+    "experiment_name": "bayesian_tissue_vertex",
+    "method": "hf_smc_abc",
+    "obs_id": 0,
+    "seed": 3
+  },
+  "method": "hf_smc_abc",
+  "nltp_exact_note": "hf_smc_abc has no parametric posterior density; use nltp_kde / nltp_gaussian from samples.",
+  "nltp_exact_status": "not_applicable_nonparametric",
+  "num_initial_pop": 1000,
+  "population_size": 300,
+  "summary_keys": [
+    "distances",
+    "epsilons",
+    "particles",
+    "weights",
+    "xs"
+  ],
+  "x_o_coercion": "as_loaded_1d",
+  "failure_registry": {
+    "blocked_count": 605,
+    "stats": {
+      "n_penalty_hf": 605,
+      "n_penalty_lf": 0,
+      "n_skipped_hf": 0,
+      "n_skipped_lf": 0
+    }
+  }
+}

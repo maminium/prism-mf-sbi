@@ -1,0 +1,12 @@
+experiment_id: nonproliferating_vertex
+experiment_name: nonproliferating_vertex
+tier: tier1
+n_obs: 1
+n_seeds: 5
+use_reference_posterior: false
+# Paper budgets only (HF baselines use method_defaults budgets_hf=[1000])
+budgets_hf: [500]
+budgets_lf: [500, 1000, 5000, 10000]
+cost:
+  c_hf: 1.0
+  c_lf: 0.1

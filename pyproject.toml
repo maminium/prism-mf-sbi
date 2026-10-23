@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prism-mf-sbi"
+version = "1.0.0"
+description = "PRISM low-fidelity screening and MF-SBI for proliferating and non-proliferating Chaste vertex tissue models."
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.11"
+authors = [
+  { name = "Mohammad Amini" },
+  { name = "Jack L. Jennings" },
+  { name = "Wei W. Xing" },
+  { name = "Alexander G. Fletcher" },
+]
+dependencies = [
+    "torch>=2.3",
+    "sbi>=0.22",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "matplotlib>=3.8",
+    "pyyaml>=6.0",
+    "tqdm>=4.64",
+    "pillow>=10.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["prism_vertex*"]

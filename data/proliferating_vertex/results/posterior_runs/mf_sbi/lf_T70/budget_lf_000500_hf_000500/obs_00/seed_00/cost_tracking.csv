@@ -1,0 +1,2 @@
+experiment_id,experiment_name,method,obs_id,seed,budget_id,n_hf_calls,n_lf_calls,c_hf,c_lf,lambda_l_over_h,total_cost,wallclock_seconds_total,train_seconds,sim_seconds_hf,sim_seconds_lf
+prism_vertex,bayesian_tissue_vertex,mf_sbi,0,0,lf_T70/budget_lf_000500_hf_000500,500,500,1.0,0.0004339417089896,0.0004339417089896,500.2169708544948,159085.2911153452,124.5118355329614,,

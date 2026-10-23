@@ -1,0 +1,65 @@
+{
+  "description": "Processed empirical observation for the non-proliferating (pupal-wing) experiment. Summaries are computed from 23 segmented Drosophila pupal-wing images at 16.5--18.5 h after puparium formation (Yan et al.; segmentations as in Ogita et al.). This is the observational target x_o used for inference; it is not a model-simulated truth.",
+  "n_images": 23,
+  "source_images": "Yan2025 / Ogita2022 w165- sample set (VDat outlines)",
+  "features_8d": [
+    "mean_log_ell",
+    "std_log_ell",
+    "mean_c2",
+    "mean_s2",
+    "ell_c2_cov",
+    "mean_log_A",
+    "std_log_A",
+    "frac_hex"
+  ],
+  "features_out5d": [
+    "mean_log_ell",
+    "std_log_ell",
+    "mean_c2",
+    "mean_log_A",
+    "frac_hex"
+  ],
+  "features_out6d": [
+    "mean_log_ell",
+    "std_log_ell",
+    "mean_c2",
+    "mean_s2",
+    "mean_log_A",
+    "frac_hex"
+  ],
+  "files": {
+    "x_o_w165_all.npy": "shape (23, 8); per-image feature vectors",
+    "x_o_w165_mean.npy": "shape (8,); mean over 23 images",
+    "x_o_w165_std.npy": "shape (8,); sample std over 23 images",
+    "x_o_w165_sem.npy": "shape (8,); SEM over 23 images",
+    "x_o_w165_out5d.npy": "shape (5,); observation used for MF-SBI / HF baselines in the paper",
+    "x_o_w165_out6d.npy": "shape (6,); observation used when matching theta_hat"
+  },
+  "x_o_out5d": [
+    -0.5677055561539536,
+    0.6437115940579803,
+    0.20140362014067964,
+    -0.02004049390305091,
+    0.438330647116098
+  ],
+  "x_o_mean_8d": [
+    -0.5677055561539536,
+    0.6437115940579803,
+    0.20140362014067964,
+    0.013686771905448413,
+    0.015494573189534084,
+    -0.02004049390305091,
+    0.40670000510875537,
+    0.438330647116098
+  ],
+  "x_o_std_8d": [
+    0.02483034365167848,
+    0.047541551957854186,
+    0.039630324612369885,
+    0.030117573255572936,
+    0.014353998470689027,
+    0.03362818364469897,
+    0.03844846077051928,
+    0.04065005697051494
+  ]
+}

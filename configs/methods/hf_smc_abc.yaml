@@ -1,0 +1,11 @@
+method: hf_smc_abc
+num_posterior_samples: 2000
+population_size: 300
+epsilon_decay: 0.2
+distance_based_decay: true
+initial_round_factor: 5
+simulation_batch_size: 200
+kernel: gaussian
+kernel_variance_scale: 0.5
+algorithm_variant: C
+c_hf: 1.0

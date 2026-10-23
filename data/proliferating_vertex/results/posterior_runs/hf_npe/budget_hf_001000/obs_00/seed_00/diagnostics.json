@@ -1,0 +1,28 @@
+{
+  "budget_hf": 1000,
+  "hidden_features": 50,
+  "max_num_epochs": 200,
+  "meta": {
+    "budget_id": "budget_hf_001000",
+    "experiment_id": "prism_vertex",
+    "experiment_name": "bayesian_tissue_vertex",
+    "method": "hf_npe",
+    "obs_id": 0,
+    "seed": 0
+  },
+  "method": "hf_npe",
+  "neural_net": "nsf",
+  "nltp_exact": -5.368352890014648,
+  "nltp_exact_status": "ok",
+  "simulation_batch_size": 1000,
+  "training_batch_size": 200,
+  "failure_registry": {
+    "blocked_count": 721,
+    "stats": {
+      "n_penalty_hf": 721,
+      "n_penalty_lf": 0,
+      "n_skipped_hf": 0,
+      "n_skipped_lf": 0
+    }
+  }
+}

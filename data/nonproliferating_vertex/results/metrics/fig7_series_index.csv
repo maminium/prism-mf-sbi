@@ -1,0 +1,5 @@
+series_id,lf_id,budget_lf,budget_hf,seed,label,run_dir
+hf_smc_abc,,0,1000,1,HF-SMC-ABC,data/nonproliferating_vertex/results/posterior_runs/hf_smc_abc/budget_hf_001000/obs_00/seed_01
+hf_npe,,0,1000,2,HF-NPE,data/nonproliferating_vertex/results/posterior_runs/hf_npe/budget_hf_001000/obs_00/seed_02
+hf_snpe,,0,1000,1,HF-SNPE,data/nonproliferating_vertex/results/posterior_runs/hf_snpe/budget_hf_001000/obs_00/seed_01
+lf_T05,lf_T05,9780,500,1,T50%,data/nonproliferating_vertex/results/posterior_runs/mf_sbi/lf_T05/budget_lf_009780_hf_000500/obs_00/seed_01

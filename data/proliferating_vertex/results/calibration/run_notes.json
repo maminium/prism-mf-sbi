@@ -1,0 +1,48 @@
+{
+  "budget_id": "calibration/lf_DT05/budget_lf_010000_hf_000500",
+  "n_references_tarp": 400,
+  "mean_rank_gamma": 0.38119126686656674,
+  "tarp_at_0.95": 0.949375,
+  "mean_rank_lambda": 0.6007089330334834,
+  "definitions": {
+    "sbc": "Talts et al. 2018; rank = fraction of posterior draws <= truth; ECDF vs uniform",
+    "marginal_coverage": "central credible-interval coverage of SBC ranks",
+    "tarp": "Lemos et al. 2023; L2 distance after test-set scaling; ECDF of inclusion fractions"
+  },
+  "tarp_lemos_mad": 0.020378731343283583,
+  "marginal_coverage_mad": 0.06445273631840796,
+  "n_obs": 20,
+  "sources": [
+    "https://arxiv.org/abs/1804.06788",
+    "https://mc-stan.org/docs/stan-users-guide/simulation-based-calibration.html",
+    "https://proceedings.mlr.press/v202/lemos23a.html",
+    "https://sbi.readthedocs.io/en/latest/how_to_guide/17_tarp.html"
+  ],
+  "n_posterior_draws": 2000,
+  "marginal_coverage_at_0.50": 0.35,
+  "marginal_coverage_at_0.95": 0.9,
+  "tarp_at_0.50": 0.515,
+  "obs_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "reference_seed": 20261022
+}

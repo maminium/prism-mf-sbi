@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+sbi-logs/
+figures/.build/
+**/testoutput/
+**/build/
+
+# Vector EPS can exceed GitHub 100MB limit; regenerate via reproduce_figures.sh
+figures/EPS/

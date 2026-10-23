@@ -1,0 +1,9 @@
+{
+  "n_total": 200,
+  "n_failed": 57,
+  "n_kept": 0,
+  "elapsed_s": 24435.009040611985,
+  "fidelity_ids": [
+    "hf_single"
+  ]
+}

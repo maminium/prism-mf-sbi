@@ -1,0 +1,11 @@
+method: hf_snpe
+neural_net: nsf
+hidden_features: 50
+z_score_x: independent
+z_score_theta: independent
+hf_training_batch_size: 200
+hf_max_num_epochs: 200
+num_rounds: 5
+posterior_mix_alpha: 0.1
+num_posterior_samples: 2000
+c_hf: 1.0

@@ -1,0 +1,62 @@
+{
+  "baseline_drop_on_fail": true,
+  "budget_hf": 1000,
+  "hidden_features": 50,
+  "meta": {
+    "budget_id": "budget_hf_001000",
+    "experiment_id": "prism_vertex",
+    "experiment_name": "bayesian_tissue_vertex",
+    "method": "hf_snpe",
+    "obs_id": 0,
+    "seed": 4
+  },
+  "method": "hf_snpe",
+  "n_hf_attempted": 1000,
+  "neural_net": "nsf",
+  "nltp_exact": -8.187620162963867,
+  "nltp_exact_status": "ok",
+  "num_rounds": 5,
+  "round_logs": [
+    {
+      "n_kept": 53,
+      "n_requested": 200,
+      "round": 1,
+      "trained": true
+    },
+    {
+      "n_kept": 180,
+      "n_requested": 200,
+      "round": 2,
+      "trained": true
+    },
+    {
+      "n_kept": 185,
+      "n_requested": 200,
+      "round": 3,
+      "trained": true
+    },
+    {
+      "n_kept": 185,
+      "n_requested": 200,
+      "round": 4,
+      "trained": true
+    },
+    {
+      "n_kept": 183,
+      "n_requested": 200,
+      "round": 5,
+      "trained": true
+    }
+  ],
+  "truncation": false,
+  "use_snpe_proposal": true,
+  "failure_registry": {
+    "blocked_count": 212,
+    "stats": {
+      "n_penalty_hf": 212,
+      "n_penalty_lf": 0,
+      "n_skipped_hf": 0,
+      "n_skipped_lf": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "comment": "Placeholder reference for Fig. 2 parity. Fill area_ratio_n4..n8 after first paper-mode runs; see fig2_validation_report.json outputs.",
+  "points": [
+    {
+      "label": "A",
+      "lambda": 0.12,
+      "gamma": 0.04,
+      "area_ratio_n4": null,
+      "area_ratio_n5": null,
+      "area_ratio_n6": null,
+      "area_ratio_n7": null,
+      "area_ratio_n8": null,
+      "mean_elongation": null
+    },
+    {
+      "label": "B",
+      "lambda": 0.0,
+      "gamma": 0.1,
+      "area_ratio_n4": null,
+      "area_ratio_n5": null,
+      "area_ratio_n6": null,
+      "area_ratio_n7": null,
+      "area_ratio_n8": null,
+      "mean_elongation": null
+    },
+    {
+      "label": "C",
+      "lambda": -0.85,
+      "gamma": 0.1,
+      "area_ratio_n4": null,
+      "area_ratio_n5": null,
+      "area_ratio_n6": null,
+      "area_ratio_n7": null,
+      "area_ratio_n8": null,
+      "mean_elongation": null
+    }
+  ],
+  "l2_tolerance_area_ratios": 0.15
+}

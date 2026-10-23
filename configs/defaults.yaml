@@ -1,0 +1,16 @@
+method_defaults:
+  # Paper: HF-only baselines at N_HF=1000
+  hf_smc_abc:
+    num_posterior_samples: 2000
+    budgets_hf: [1000]
+  hf_npe:
+    num_posterior_samples: 2000
+    budgets_hf: [1000]
+  hf_snpe:
+    num_posterior_samples: 2000
+    budgets_hf: [1000]
+  # Paper: MF-SBI at N_HF=500 with LF sweep
+  mf_sbi:
+    num_posterior_samples: 2000
+    budgets_hf: [500]
+    budgets_lf: [500, 1000, 5000, 10000]
