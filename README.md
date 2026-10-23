@@ -6,8 +6,6 @@ Companion code and processed data for the manuscript:
 
 Mohammad Amini, Jack L. Jennings, Wei W. Xing, Alexander G. Fletcher
 
-Wei W. Xing and Alexander G. Fletcher contributed equally.
-
 The repository implements **PRISM** (Paired Ranking Index for Simulator Matching) to rank candidate low-fidelity (LF) Chaste vertex simulators before neural training, together with high-fidelity (HF) baselines and **multi-fidelity simulation-based inference (MF-SBI)**. Processed tables and posteriors under `data/` match the Zenodo companion deposit so **Figs 1–8** can be regenerated without rerunning large-scale jobs.
 
 | Model | Experiment id | Chaste project |
