@@ -1,12 +1,3 @@
-"""
-Exact NLTP = -log q(θ* | x_o) under the learned neural posterior (paper definition).
-
-We evaluate the posterior log-density with ``norm_posterior=False`` (see
-``posterior_log_prob_unnorm``) so sbi does not run expensive / fragile Monte Carlo
-normalization. Failed normalized ``log_prob`` calls were dropping ``nltp_exact``
-from ``diagnostics.json`` silently on some tasks (e.g. exp09 MF-truncated-proposal).
-"""
-
 from __future__ import annotations
 
 from typing import Any
