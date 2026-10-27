@@ -1,4 +1,4 @@
-"""nonproliferating LF scoreboard I/O — record failures; never abort the campaign."""
+"""nonproliferating LF scoreboard I/O"""
 
 from __future__ import annotations
 
