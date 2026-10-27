@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 6 — non-proliferating PRISM scoreboard (Mo 8 inch layout).
+"""Paper Figure 6 — non-proliferating PRISM scoreboard.
 
   (A) Scoreboard regimes
   (B) Scoreboard predicts best NLTP
