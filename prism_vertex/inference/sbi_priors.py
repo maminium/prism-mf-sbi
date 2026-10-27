@@ -1,5 +1,3 @@
-"""Prior / proposal helpers shared by HF-SNPE and MF-SBI."""
-
 from __future__ import annotations
 
 from typing import Any
