@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the single Vertex tissue synthetic observation (Kursawe protocol).
+Build the single Vertex tissue synthetic observation.
 
   theta_true = (0.12, 0.04)
   K HF runs (default 10), different RNG seeds, parallel with --jobs
