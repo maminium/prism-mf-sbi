@@ -174,7 +174,7 @@ def _set_x_tick_display(ax: plt.Axes, *, show: bool) -> None:
 
 
 def _load_pooled_tarp_curve(exp_dir: Path, method: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, int]:
-    """Paper Fig 5 TARP: Lemos curve from calibration/pooled_curves.csv (not SBC-rank coverage)."""
+    """Paper Fig 5 TARP: Lemos curve from calibration/pooled_curves.csv."""
     import json
 
     csv_path = exp_dir / "results" / "calibration" / "pooled_curves.csv"
@@ -193,7 +193,6 @@ def _load_pooled_tarp_curve(exp_dir: Path, method: str) -> tuple[np.ndarray, np.
     if notes.is_file():
         n_obs = int(json.loads(notes.read_text()).get("n_obs", n_obs))
 
-    # lo/hi unused by the panel drawer; keep tuple shape.
     return TARP_ALPHAS, mu, mu.copy(), mu.copy(), n_obs
 
 
