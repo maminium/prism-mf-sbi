@@ -1,16 +1,3 @@
-"""
-Fast, stable log-probability helpers for sbi posteriors and restricted priors.
-
-SBI defaults normalize densities via Monte Carlo (rejection sampling inside the flow for
-``DirectPosterior``, prior acceptance for ``RestrictedPrior``). That can dominate wall
-time and trigger nflows spline issues. For training heuristics (ensemble disagreement,
-truncation scoring) we only need unnormalized log-densities — use the ``norm_*=False``
-flags below.
-
-This is separate from ``safe_sampling.py`` (try/except around ``.sample()``) and from
-``_sanitize_theta_with_prior`` (prior support checks before simulators).
-"""
-
 from __future__ import annotations
 
 from typing import Any
