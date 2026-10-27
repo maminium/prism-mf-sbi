@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 4 — HF-SMC-ABC, HF-NPE, HF-SNPE, then MF-SBI (ΔT_0.05)."""
+
 from __future__ import annotations
 
 import argparse
