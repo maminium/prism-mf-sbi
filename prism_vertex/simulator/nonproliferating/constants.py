@@ -13,7 +13,7 @@ THETA_NAMES = ("a_r", "b_0", "k")
 PRIOR_LOW = np.array([0.05, 0.05, 2.5], dtype=np.float64)
 PRIOR_HIGH = np.array([0.50, 0.40, 12.0], dtype=np.float64)
 
-K_HF_REPLICATES = 1
+K_HF_REPLICATES = 10
 
 # Legacy Stage-A honeycomb lock (closeness ranking); not MF scoreboard HF.
 HF_END_TIME = 80.0
