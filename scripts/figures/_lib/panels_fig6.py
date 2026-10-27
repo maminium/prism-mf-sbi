@@ -174,29 +174,27 @@ def _set_x_tick_display(ax: plt.Axes, *, show: bool) -> None:
 
 
 def _load_pooled_tarp_curve(exp_dir: Path, method: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, int]:
-    """Match ``tarp_alpha_coverage_dt05_calibration.png`` pooling per method."""
-    posts = _load_posteriors(exp_dir)
-    sub = posts[posts["method"] == method]
-    if sub.empty:
-        raise FileNotFoundError(f"No calibration posteriors for TARP: method={method}")
-    curves: list[np.ndarray] = []
-    for _, row in sub.iterrows():
-        obs_id = int(row["obs_id"])
-        curves.append(
-            bu.tarp_coverage_curve(
-                row["samples"],
-                calibration_theta_true(exp_dir, obs_id),
-                alphas=TARP_ALPHAS,
-            )
-        )
-    arr = np.asarray(curves, dtype=float)
-    return (
-        TARP_ALPHAS,
-        np.nanmean(arr, axis=0),
-        np.nanquantile(arr, 0.20, axis=0),
-        np.nanquantile(arr, 0.80, axis=0),
-        len(curves),
-    )
+    """Paper Fig 5 TARP: Lemos curve from calibration/pooled_curves.csv (not SBC-rank coverage)."""
+    import json
+
+    csv_path = exp_dir / "results" / "calibration" / "pooled_curves.csv"
+    if not csv_path.is_file():
+        raise FileNotFoundError(f"Missing Lemos TARP table: {csv_path}")
+    df = pd.read_csv(csv_path)
+    if "alpha" not in df.columns or "tarp_lemos" not in df.columns:
+        raise ValueError(f"Expected columns alpha,tarp_lemos in {csv_path}")
+
+    alphas_src = df["alpha"].to_numpy(dtype=float)
+    curve_src = df["tarp_lemos"].to_numpy(dtype=float)
+    mu = np.interp(TARP_ALPHAS, alphas_src, curve_src)
+
+    n_obs = 20
+    notes = exp_dir / "results" / "calibration" / "run_notes.json"
+    if notes.is_file():
+        n_obs = int(json.loads(notes.read_text()).get("n_obs", n_obs))
+
+    # lo/hi unused by the panel drawer; keep tuple shape.
+    return TARP_ALPHAS, mu, mu.copy(), mu.copy(), n_obs
 
 
 def _shared_posterior_limits(all_samples: list[np.ndarray], *, pad_frac: float = 0.08) -> dict[str, tuple[float, float]]:
