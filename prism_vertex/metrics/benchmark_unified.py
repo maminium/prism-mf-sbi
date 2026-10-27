@@ -1,9 +1,8 @@
 """
 Paper metric primitives for prism-mf-sbi.
 
-Kept metrics (manuscript): NLTP, CRPS, NRMSE (in callers), TARP, SBC ranks/KS,
-posterior STD (in callers). Extended bake-off metrics (C2ST/MMD/ESS/MEDDIST/…)
-are not used in the paper and are omitted.
+Kept metrics (manuscript): NLTP, CRPS, NRMSE, TARP, SBC ranks,
+posterior STD.
 """
 
 from __future__ import annotations
