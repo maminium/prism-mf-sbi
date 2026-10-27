@@ -1,5 +1,3 @@
-"""HF sequential SNPE baseline (drop-on-fail on proliferating; SNPE proposals, no truncation)."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
