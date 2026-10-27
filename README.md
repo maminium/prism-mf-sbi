@@ -85,7 +85,7 @@ Model-specific build notes and literature references: `chaste/proliferating_vert
 
 ## Data
 
-Files under `data/` are **processed derivatives** (summary statistics, metrics, posterior samples, calibration SBC/TARP tables) aligned with the Zenodo deposit. Raw simulation trajectories and HPC job outputs are not archived. Original segmented tissue images from Yan et al. are not redistributed here.
+Files under `data/` are **processed derivatives** (summary statistics, metrics, posterior samples, calibration SBC/TARP tables) aligned with the Zenodo deposit. Original segmented tissue images from Yan et al. are not redistributed here.
 
 ## Verify installation
 
