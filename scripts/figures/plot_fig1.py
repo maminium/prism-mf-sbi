@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 1 — ship the cropped PNG; export EPS/TIFF from it.
-"""
+
 from __future__ import annotations
 
 import argparse
