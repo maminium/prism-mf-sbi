@@ -1,15 +1,4 @@
 """Best HF-simulator θ matching Yan w165 x_o (pseudo-truth for metrics).
-
-For real w165 data there is no known generative θ. We define θ̂ as the θ among
-available **HF Voronoi-T=5** simulation archives whose 6D (or 5D) summary has
-minimum L2 distance to the observed w165 mean.
-
-Pools (in priority order):
-  1. ``hf_inference/*/train_sims.npz`` — archived HF training pairs from w165 SNPE/NPE/SMC
-  2. ``lf_scoreboard/analysis/cells.csv`` at ``hf_single`` — PRISM pilot HF runs
-
-Note: the 2026 MF ``inference/`` campaign did not persist ``train_sims.npz`` locally;
-re-sync or enable saving to extend the pool.
 """
 
 from __future__ import annotations
