@@ -1,5 +1,3 @@
-"""Resolve nonproliferating inference output subspace (5D without mean_s2, or 6D)."""
-
 from __future__ import annotations
 
 import os
