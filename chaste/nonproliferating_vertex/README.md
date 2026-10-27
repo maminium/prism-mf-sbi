@@ -36,7 +36,7 @@ original tissue images/meshes from the Yan et al. source if needed.
    *PLOS Computational Biology* 18(6):e1010209.  
    https://doi.org/10.1371/journal.pcbi.1010209
 
-2. **Yan, Ogita, Ishihara & Sugimura (2024/2025).** *Bayesian parameter inference for epithelial mechanics.*  
+2. **Yan et al. (2024/2025).** *Bayesian parameter inference for epithelial mechanics.*  
    *Journal of Theoretical Biology* 595:111960.  
    https://doi.org/10.1016/j.jtbi.2024.111960  
    (Empirical pupal-wing geometry summaries used as the observation.)
