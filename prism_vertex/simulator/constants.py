@@ -1,4 +1,4 @@
-"""shared constants (import-safe: no task/simulator dependencies)."""
+"""shared constants"""
 
 from __future__ import annotations
 
