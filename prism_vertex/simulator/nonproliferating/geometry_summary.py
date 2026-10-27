@@ -1,9 +1,3 @@
-"""Shared 8D geometry summary for nonproliferating (Chaste mesh JSON and Yan/SSBD VDat).
-
-Matches C++ YanEpithelialGeometrySummary:
-  internal cells/edges only; lengths nondim by sqrt(median A).
-"""
-
 from __future__ import annotations
 
 import json
