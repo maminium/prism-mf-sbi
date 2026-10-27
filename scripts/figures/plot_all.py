@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate paper figures 1–8 from shipped processed data.
 
-Mapping (Mo v6):
+Mapping:
   fig1  — workflow schematic (shipped PDF/PNG)
   fig2  — PRISM screening (proliferating)
   fig3  — fidelity–cost scoreboard + post-training metrics (proliferating)
