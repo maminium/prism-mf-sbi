@@ -242,7 +242,7 @@ def check_methods_smoke() -> None:
         "lf_warmup_fraction": 1.0,
         "lf_active_fraction": 0.0,
         "active_fraction_lf": 0.0,
-        "use_active_lf": False,
+        "use_phase2_lf_active": False,
         "population_size": 6,
         "epsilon_schedule": [50.0, 20.0],
     }
