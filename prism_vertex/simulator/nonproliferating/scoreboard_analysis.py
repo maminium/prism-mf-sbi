@@ -1,5 +1,3 @@
-"""nonproliferating scoreboard frame + PRISM helpers (6D primary subspace)."""
-
 from __future__ import annotations
 
 import json
