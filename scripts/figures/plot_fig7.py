@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 7 — pairwise posteriors on the non-proliferating empirical observation.
 
-Rows: HF-SMC-ABC, HF-NPE, HF-SNPE, MF-SBI with $T_{50\\%}$.
-Columns: pairwise joints of $(a_r, b_0, k)$ with data-matched $\\hat\\theta$ marker.
-"""
 from __future__ import annotations
 
 import argparse
