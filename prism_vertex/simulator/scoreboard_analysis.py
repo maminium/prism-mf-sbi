@@ -1,12 +1,4 @@
 """Shared helpers for proliferating scoreboard post-run analysis.
-
-One foundation used by all analysis scripts:
-- ``build_cells_frame`` / ``load_cells_frame``: one row per (theta_index, seed_k, fidelity_id)
-- ``classify_error``: map a Chaste error string + status to an error class
-- ``tensor_for_fidelity``: (n_theta, n_seeds, 6) summary array + ok mask from the frame
-- plotting conventions (fidelity order, colors, linestyles) and small stats utilities
-  (RBF-MMD, PCA via SVD) so figures stay consistent.
-
 """
 from __future__ import annotations
 
