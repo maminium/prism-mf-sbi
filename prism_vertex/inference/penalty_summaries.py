@@ -1,5 +1,3 @@
-"""Observation-opposed penalty summaries for failed simulations (any x_dim)."""
-
 from __future__ import annotations
 
 import os
