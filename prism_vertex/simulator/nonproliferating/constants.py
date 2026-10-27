@@ -1,4 +1,4 @@
-"""nonproliferating shared constants (import-safe)."""
+"""nonproliferating shared constants"""
 
 from __future__ import annotations
 
