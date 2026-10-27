@@ -30,12 +30,12 @@ See the repository README for the shared build steps.
    *Current Biology* 17(24):2095–2104.  
    https://doi.org/10.1016/j.cub.2007.11.049
 
-2. **Kursawe, Baker & Fletcher (2018).** *Approximate Bayesian computation reveals the importance of repeated measurements for parameterising cell-based models of growing tissues.*  
+2. **Kursawe et al. (2018).** *Approximate Bayesian computation reveals the importance of repeated measurements for parameterising cell-based models of growing tissues.*  
    *Journal of Theoretical Biology* 443:66–81.  
    https://doi.org/10.1016/j.jtbi.2018.01.020  
    (Same biological model and packing summaries used here.)
 
-3. **Cooper, Spiteri & Mirams (2020).** *Chaste: Cancer, Heart and Soft Tissue Environment.*  
+3. **Cooper et al. (2020).** *Chaste: Cancer, Heart and Soft Tissue Environment.*  
    *Journal of Open Source Software* 5(47):1848.  
    https://doi.org/10.21105/joss.01848  
    https://chaste.github.io/
