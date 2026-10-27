@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 5 — MF-SBI calibration at ΔT_0.05 (TARP/SBC) (main observation, operating point).
 
-Each figure uses a 2×2 corner layout with three active panels:
-  - marginal Λ (top-left)
-  - joint Λ–Γ contours (top-right)
-  - marginal Γ (bottom-right)
-
-Example:
-  python -m scripts.figures.plot_fig6
-"""
 from __future__ import annotations
 
 import argparse
