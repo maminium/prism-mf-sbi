@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 1 — ship the cropped Mo 8 PNG; export PLOS EPS/TIFF from it.
-
-The author PDF (PowerPoint/Canva widescreen) has large empty margins. The
-manuscript PNG is the tight-cropped Mo 8 asset. Prefer that PNG; only rebuild
-from PDF when ``--from-pdf`` is passed (with whitespace crop).
+"""Paper Figure 1 — ship the cropped PNG; export EPS/TIFF from it.
 """
 from __future__ import annotations
 
