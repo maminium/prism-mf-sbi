@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Figure 3 panels (a)–(g): ABCDE row on top, F and G below.
 
-Example:
-  python -m scripts.figures.plot_fig2
-"""
 from __future__ import annotations
 
 import argparse
