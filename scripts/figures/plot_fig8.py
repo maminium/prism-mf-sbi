@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble paper Figure 8 (methods composite) into max_budget_comparison/all/fig8.
 
-Layout:
-  row 1 — (A) prior + HF failure map | (B) seed × fidelity heatmap
-  row 2 — (C) inference-methods schematic (full width, external image at all/e.png)
-
-Example:
-  python scripts/plot_prism_vertex_methods_fig2_panels.py --composite
-  python scripts/plot_fig2_composite.py
-"""
 from __future__ import annotations
 
 import argparse
