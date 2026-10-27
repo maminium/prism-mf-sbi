@@ -1,5 +1,3 @@
-"""Acquisition helpers for MF-SBI (ensemble uncertainty ranking)."""
-
 from __future__ import annotations
 
 from typing import Any
