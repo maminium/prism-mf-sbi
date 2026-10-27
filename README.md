@@ -30,7 +30,7 @@ pip install -e .
 ./reproduce_figures.sh
 ```
 
-Outputs: `figures/fig1.png`–`fig8.png`, plus TIFF and EPS under `figures/TIFF/` and `figures/EPS/`.
+Outputs: `figures/fig2.png`–`fig7.png`, plus TIFF and EPS under `figures/TIFF/` and `figures/EPS/`.
 
 ## Repository layout
 
