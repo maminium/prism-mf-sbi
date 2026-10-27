@@ -1,6 +1,7 @@
 """Figure 5 — MF-SBI posterior triangle + TARP/SBC at ΔT_0.05."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -175,7 +176,6 @@ def _set_x_tick_display(ax: plt.Axes, *, show: bool) -> None:
 
 def _load_pooled_tarp_curve(exp_dir: Path, method: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, int]:
     """Paper Fig 5 TARP: Lemos curve from calibration/pooled_curves.csv."""
-    import json
 
     csv_path = exp_dir / "results" / "calibration" / "pooled_curves.csv"
     if not csv_path.is_file():
