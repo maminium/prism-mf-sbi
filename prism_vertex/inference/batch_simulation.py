@@ -1,5 +1,3 @@
-"""Batch HF/LF simulation helpers for paper inference methods."""
-
 from __future__ import annotations
 
 from concurrent.futures import ProcessPoolExecutor, as_completed
