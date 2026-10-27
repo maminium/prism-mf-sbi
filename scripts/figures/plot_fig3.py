@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Figure 4 full composite: (a)–(c) top row, (d)–(h) bottom row.
 
-Example:
-  python -m scripts.figures.plot_fig3
-"""
 from __future__ import annotations
 
 import argparse
