@@ -41,7 +41,7 @@ original tissue images/meshes from the Yan et al. source if needed.
    https://doi.org/10.1016/j.jtbi.2024.111960  
    (Empirical pupal-wing geometry summaries used as the observation.)
 
-3. **Cooper, Spiteri & Mirams (2020).** *Chaste: Cancer, Heart and Soft Tissue Environment.*  
+3. **Cooper et al. (2020).** *Chaste: Cancer, Heart and Soft Tissue Environment.*  
    *Journal of Open Source Software* 5(47):1848.  
    https://doi.org/10.21105/joss.01848  
    https://chaste.github.io/
