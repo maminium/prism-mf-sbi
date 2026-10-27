@@ -17,7 +17,7 @@ authors = [
 ]
 dependencies = [
     "torch>=2.3",
-    "sbi>=0.22",
+    "sbi>=0.22,<0.24",
     "numpy>=1.24",
     "pandas>=2.0",
     "scipy>=1.10",
