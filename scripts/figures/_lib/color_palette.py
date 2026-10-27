@@ -1,6 +1,4 @@
-"""Unified manuscript color palette (PLOS Computational Biology style).
-
-Used by paper Figures 2–7 under max_budget_comparison/all/.
+"""Unified manuscript color palette
 """
 from __future__ import annotations
 
