@@ -136,7 +136,7 @@ def check_prolif_sim() -> None:
 
 def check_prolif_replicate_mean() -> None:
     try:
-        from prism_vertex.simulator.simulator import TissueVertexSimulator
+        from prism_vertex.simulator.simulator import ProliferatingVertexSimulator
         from prism_vertex.simulator.chaste_runner import _chaste_paths
         from prism_vertex.simulator.fidelities import FidelitySpec, ALL_FIDELITIES
 
@@ -153,7 +153,7 @@ def check_prolif_replicate_mean() -> None:
             n_replicates=2,
         )
         ALL_FIDELITIES["lf_R2"] = short
-        sim = TissueVertexSimulator()
+        sim = ProliferatingVertexSimulator()
         x = sim.run_lf(np.array([0.12, 0.04]), sim_seed=11, fidelity_id="lf_R2")
         assert x.shape == (6,) and np.isfinite(x).all()
         _ok("prolif lf_R2 mean-of-2", f"x={np.round(x, 3).tolist()}")
