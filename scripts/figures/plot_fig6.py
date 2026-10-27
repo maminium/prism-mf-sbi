@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Paper Figure 6 — non-proliferating PRISM scoreboard.
 
-  (A) Scoreboard regimes
-  (B) Scoreboard predicts best NLTP
-  (C)–(E) Max-budget NRMSE, CRPS, mean posterior STD
-"""
 from __future__ import annotations
 
 import argparse
